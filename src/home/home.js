@@ -2,10 +2,13 @@ import { Parallax } from "react-parallax";
 import './home.css'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
+import { Helmet } from 'react-helmet';
 const Home=()=>{
     return(
         <section>
+            <Helmet>
+                <title>Home</title>
+            </Helmet>
             <div className="container" >
                 <Parallax className="img-fluid" bgImage="/img/bg1.png" strength={300}>
                     <div style={{ height: 550 }}>
