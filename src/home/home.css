@@ -1,0 +1,22 @@
+.bg-grey{
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+}
+.padding-top20{
+    padding-top: 20px;
+}
+.box-hr{
+    display: flex;
+}
+.box-hr ul{
+    width: 50%;
+}
+@media screen and (max-width: 600px) {
+    .box-hr{
+        display: block
+    }
+    .box-hr ul{
+        width: 100%;
+    }
+    
+}
