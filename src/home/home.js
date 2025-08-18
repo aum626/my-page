@@ -76,19 +76,6 @@ const Home=()=>{
                     </div>
                 </ul>
             </div>
-            <div className="container">
-            <div>
-                <Carousel>
-                    <div>
-                        <img src="/img/IMG_3285.jpg" className="img-thumbnail" alt=" " width="500"/>
-                    </div>
-                    <div>
-                        <img src="/img/IMG_3286.jpg" className="img-thumbnail" alt=" " width="500"/>
-                    </div>
-                </Carousel>
-            </div>
-                
-            </div>
         </section>
         
     );
