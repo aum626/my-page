@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.head{
+    text-align: center;
+}
+.boxBlog {
+    background-color:rgb(32, 32, 32);
+    height: 0 auto;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+}
+.boxBlog img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.boxBlog .data{
+    padding: 15px;
+}
+@media screen and (max-width: 600px) {
+    .boxBlog{
+        display: block;
+    }
+    .boxBlog img{
+        display: block;
+        margin: 0 auto;
+    }
+    
+}
